@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/Xtended_alioth.mk
+    $(LOCAL_DIR)/xtended_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_alioth-user \
-    lineage_alioth-userdebug \
-    lineage_alioth-eng
+    xtended_alioth-user \
+    xtended_alioth-userdebug \
+    xtended_alioth-eng
