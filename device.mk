@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# A/B
+TARGET_BOARD_PLATFORM := kona
 TARGET_IS_VAB := true
 
 # Inherit from sm8250-common
-$(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
+$(call inherit-product, device/xiaomi/sm8250-common/common.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
